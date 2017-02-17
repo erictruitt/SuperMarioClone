@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Wrappers">
+      <UniqueIdentifier>{155382aa-81fe-462c-8937-d0fb948402d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wrappers\Core">
+      <UniqueIdentifier>{b35a0a80-bc33-4efb-b491-f2ae27ae4c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wrappers\Events &amp; Messages">
+      <UniqueIdentifier>{d4747ecd-27ba-43f4-9391-338b7f32ab4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wrappers\Utilities">
+      <UniqueIdentifier>{fad81faa-f52f-4ba1-b93a-94b2371af72d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App Core">
+      <UniqueIdentifier>{812e3129-9a7e-4450-99bc-1e01f18981cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game States">
+      <UniqueIdentifier>{929c6766-a868-4f4b-9f78-8d866d1af800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{2ae81ef9-e641-4a2a-b456-0eb170399a9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Miscellaneous">
+      <UniqueIdentifier>{a6f3d672-41c0-4c8e-9e79-d20b19dac98f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Messages">
+      <UniqueIdentifier>{d6e8ca7b-ee70-4a39-87fa-824cbdb12d81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SGD Wrappers\SGD_AudioManager.cpp">
+      <Filter>Wrappers\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SGD Wrappers\SGD_GraphicsManager.cpp">
+      <Filter>Wrappers\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SGD Wrappers\SGD_InputManager.cpp">
+      <Filter>Wrappers\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="SGD Wrappers\SGD_Event.cpp">
+      <Filter>Wrappers\Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="SGD Wrappers\SGD_EventManager.cpp">
+      <Filter>Wrappers\Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="SGD Wrappers\SGD_Listener.cpp">
+      <Filter>Wrappers\Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="SGD Wrappers\SGD_Message.cpp">
+      <Filter>Wrappers\Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="SGD Wrappers\SGD_MessageManager.cpp">
+      <Filter>Wrappers\Events &amp; Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="SGD Wrappers\SGD_Geometry.cpp">
+      <Filter>Wrappers\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Game.cpp">
+      <Filter>App Core</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WinMain.cpp">
+      <Filter>App Core</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BitmapFont.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DestroyEntityMessage.cpp">
+      <Filter>Messages</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Entity.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EntityManager.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameplayState.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="source\MainMenuState.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CellAnimation.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="source\AnchorPointAnimation.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Mario.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Map.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\OptionsState.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="source\InstructionsState.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="source\CreditsState.cpp">
+      <Filter>Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Goomba.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Mushroom.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SpecialMysteryBox.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Flower.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FireBall.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SGD Wrappers\SGD_AudioManager.h">
+      <Filter>Wrappers\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\SGD_GraphicsManager.h">
+      <Filter>Wrappers\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\SGD_InputManager.h">
+      <Filter>Wrappers\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\SGD_Event.h">
+      <Filter>Wrappers\Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\SGD_EventManager.h">
+      <Filter>Wrappers\Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\SGD_Listener.h">
+      <Filter>Wrappers\Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\SGD_Message.h">
+      <Filter>Wrappers\Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\SGD_MessageManager.h">
+      <Filter>Wrappers\Events &amp; Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\SGD_Color.h">
+      <Filter>Wrappers\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\SGD_Declarations.h">
+      <Filter>Wrappers\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\SGD_Geometry.h">
+      <Filter>Wrappers\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\SGD_Handle.h">
+      <Filter>Wrappers\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\SGD_HandleManager.h">
+      <Filter>Wrappers\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\SGD_HandleManager.hpp">
+      <Filter>Wrappers\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\SGD_Key.h">
+      <Filter>Wrappers\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SGD Wrappers\SGD_String.h">
+      <Filter>Wrappers\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Game.h">
+      <Filter>App Core</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BitmapFont.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="source\DestroyEntityMessage.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Entity.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\IEntity.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\EntityManager.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="source\GameplayState.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="source\IGameState.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MainMenuState.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="source\MessageID.h">
+      <Filter>Messages</Filter>
+    </ClInclude>
+    <ClInclude Include="source\AnchorPointAnimation.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CellAnimation.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="source\Mario.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Map.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\OptionsState.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="source\InstructionsState.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="source\CreditsState.h">
+      <Filter>Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Goomba.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Mushroom.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SpecialMysteryBox.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Flower.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\FireBall.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameProject.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="worldtest.txt" />
+  </ItemGroup>
+</Project>
